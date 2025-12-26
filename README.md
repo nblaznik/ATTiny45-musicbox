@@ -42,15 +42,14 @@ The project evolved from an Arduino prototype into a bare-metal ATtiny implement
 
 
 ## Wiring:  
-                          _________
-                         |  notch  |
-                    PB5  |1       8|  VCC -> [ Power Switch ] -> Battery+ 
-                    PB3  |2       7|  PB2
-                    PB4  |3       6|  PB1
-Battery-, buzzer <- GND  |4       5|  PB0 -> buzzer output
-                         |_________|
-                         
-<pre> _________ | notch | PB5 |1 8| VCC -> [ Power Switch ] -> Battery+ PB3 |2 7| PB2 PB4 |3 6| PB1 Battery-, buzzer <- GND |4 5| PB0 -> buzzer output |_________| </pre>
+                              _________
+                             |  notch  |
+                        PB5  |1       8|  VCC -> [ Power Switch ] -> Battery+ 
+                        PB3  |2       7|  PB2
+                        PB4  |3       6|  PB1
+    Battery-, buzzer <- GND  |4       5|  PB0 -> buzzer output
+                             |_________|
+   
 ---
 
 ## Programming
