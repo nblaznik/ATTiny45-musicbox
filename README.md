@@ -40,6 +40,7 @@ The project evolved from an Arduino prototype into a bare-metal ATtiny implement
 - Battery (I used CR2032)
 - Optional power switch (I used a mechnism from an old singing postcard, such that it starts playing when the music box is opened)
 
+'''
 Wiring:  
                           _________
                          |  notch  |
@@ -48,7 +49,7 @@ Wiring:
                     PB4  |3       6|  PB1
 Battery-, buzzer <- GND  |4       5|  PB0 -> buzzer output
                          |_________|
-
+'''
 ---
 
 ## Programming
